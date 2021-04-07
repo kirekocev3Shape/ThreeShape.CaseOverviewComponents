@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+	<PropertyGroup>
+		<RootNamespace>ThreeShape.CaseOverviewComponents</RootNamespace>
+		<AssemblyName>ThreeShape.CaseOverviewComponents</AssemblyName>
+		<TargetFrameworks>netcoreapp3.0;net461</TargetFrameworks>
+		<LangVersion>latest</LangVersion>
+		<OutputType>Library</OutputType>
+		<TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+		<UseWPF>true</UseWPF>
+		<PackageId>ThreeShape.CaseOverviewComponents</PackageId>
+		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+		<Description>Represents UI components for Case Overview.</Description>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<!--<PackageReference Include="GitVersionTask" Version="5.1.2">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>-->
+		<PackageReference Include="ThreeShape.MSBuild.CodeCheck" Version="6.0.1">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="ThreeShape.MSBuild.NuGetCreator" Version="2.5.3">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="ThreeShape.Signature" Version="1.0.1">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="ThreeShape.Versioning" Version="1.0.0">
+			<PrivateAssets>all</PrivateAssets>
+			<ExcludeAssets>contentFiles</ExcludeAssets>
+		</PackageReference>
+	</ItemGroup>
+</Project>

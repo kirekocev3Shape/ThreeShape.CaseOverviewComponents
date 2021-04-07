@@ -1,0 +1,3 @@
+buildNugetPackage(
+	publishToArtifactory: true
+)
