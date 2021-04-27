@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ThreeShape.CaseOverviewComponents
 {
-    class test
+    class test 
     {
     }
 }
